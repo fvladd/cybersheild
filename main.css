@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #fff4e4;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+img{
+    max-width: 100%;
+
+}
+
+.wrapper {
+    background-color: rgba(0, 2, 49, 1);
+    min-height: 150vh;
+    width: 100%;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 50px 0;
+}
+
+header nav {
+    float: right;
+    width: 50%;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li {
+    display: inline-block;
+}
+header nav ul li a {
+    color:black
+}
+
+header nav ul li.btn a {
+    background: #fdfff5;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 90px;
+    border-radius: 20px;
+    transition: all 500 ms ease;
+}
+
+header nav ul li.btn a:hover {
+    background: #e08ed3
+}
+
+.hero {
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.hero--info{
+    width: 1000px;
+    padding-top: 140px;
+    padding-left: 1px;
+
+}
+
+.hero--info h1 {
+    font-size: 55px;
+    font-weight: 700;
+    width: 1100px;
+}
+.hero--info h2 {
+    font-size: 53px;
+    font-weight: 700;
+    width: 900px;
+    margin-top: 45px;
+}
+
+
+.hero--info p {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 0;
+    width: 1100px;
+}
+
+.shapka .btn {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+header nav ul pi.btn a {
+    display: inline-block;
+    width: 450px;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(38, 40, 80, 0.8);
+    padding-left: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 20px;
+    border-radius: 30px;
+    transition: all 500 ms ease;
+    z-index: 2;
+}
+
+header nav ul pi.btn a:hover {
+    background: #e08ed3
+}
+
+header nav ul pi a {
+    color: #fdfff5;
+}
+
+.knopki .btn{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.btn_1 {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+.btn_2 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}
+.btn_3 {
+    position: absolute;
+    top: 110%;
+    left: 20%;
+}
+.btn_4 {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+}
+.btn_f {
+    position: absolute;
+    top: 12.3%;
+    left: 52.6%;
+}
+.btn_a {
+    position: absolute;
+    top: 12.3%;
+    left: 70.3%;
+}
+
+.hero.container {
+    position: relative;
+}
+
+.hero.container img[src="img/notebook.svg"] {
+    position: absolute;
+    top: 120px;      
+    left: 950px;    
+    width: auto;  
+    height: auto;  
+    z-index: 1;     
+}
+
+.hero.container img[src="img/hat.svg"] {
+    position: absolute;
+    top: 0;     
+    left: 1%;    
+    width: auto;  
+    height: auto;   
+    z-index: 1; 
+}
+
+.shapka .btn_f,
+.shapka .btn_a {
+    z-index: 100;
+}
+
+.hero.container img[src="img/vhode.svg"] {
+    position: absolute;
+    top: 13.5px;      
+    left: 1300px;    
+    width: auto;  
+    height: auto;  
+    z-index: 500;     
+}
+
+.hero.container img[src="img/help.svg"] {
+    position: absolute;
+    top: 13.5px;      
+    left: 970px;    
+    width: auto;  
+    height: auto;  
+    z-index: 500;     
+}
+
+.hero.container img[src="img/pamytka.svg"] {
+    position: absolute;
+    top: 13.5px;      
+    left: 1308px;    
+    width: auto;  
+    height: auto;  
+    z-index: 500;     
+}
+
+
+

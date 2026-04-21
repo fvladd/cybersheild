@@ -1,0 +1,387 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #fff4e4;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+img{
+    max-width: 100%;
+
+}
+
+.wrapper {
+    background-color: rgba(0, 2, 49, 1);
+    min-height: 1700vh;
+    width: 100%;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 50px 0;
+}
+
+header nav {
+    float: right;
+    width: 50%;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li {
+    display: inline-block;
+}
+header nav ul li a {
+    color:black
+}
+
+header nav ul pi a {
+    color: #fdfff5;
+    opacity: 100%;
+
+}
+
+header nav ul li.btn a {
+    background: #fdfff5;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 90px;
+    border-radius: 20px;
+    transition: all 500 ms ease;
+}
+
+header nav ul li.btn a:hover {
+    background: #e08ed3
+}
+
+.hero {
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.hero--info{
+    width: 1000px;
+    padding-top: 140px;
+    padding-left: 1px;
+
+}
+
+.hero--info h1 {
+    font-size: 70px;
+    font-weight: 800;
+    width: 1500px;
+    margin-top: 10px;
+    margin-left: 1px;
+}
+
+.hero--info h2 {
+    font-size: 60px;
+    font-weight: 800;
+    width: 1500px;
+    margin-top: 750px;
+    margin-left: 1px;
+}
+
+.part_1 h3{
+    font-size: 60px;
+    font-weight: 800;
+    width: 1500px;
+    margin-top: 770px;
+    margin-left: 1px;
+}
+
+.hero--info p {
+    font-size: 40px;
+    font-weight: 500;
+    width: 1500px;
+    margin-top: 800px;
+    margin-left: 1px;
+}
+
+
+
+.shapka .btn {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+header nav ul pi.btn a {
+    display: inline-block;
+    width: 450px;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    opacity: 1%;
+
+    padding-left: 475px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 475px;
+    transition: all 500 ms ease;
+    z-index: 700;
+}
+
+header nav ul pi.btn a:hover {
+    background: #e08ed3;
+    opacity: 90%;
+
+}
+
+header nav ul pi a {
+    color: #fdfff5;
+}
+
+.knopki .btn{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.btn_help {
+    position: absolute;
+    top: 12.3%;
+    left: 21%;
+    z-index: 700;
+}
+
+.btn_glavn {
+    position: absolute;
+    top: 12.3%;
+    left: 38.8%;
+    z-index: 700;
+}
+
+.btn_slovar {
+    position: absolute;
+    top: 12.3%;
+    left: 56%;
+    z-index: 700;
+}
+
+.btn_kurs {
+    position: absolute;
+    top: 12.3%;
+    left: 73.5%;
+    z-index: 700;
+}
+
+.zadan_1 {
+    position: absolute;
+    top: 950%;
+    left: 73.5%;
+    z-index: 700;
+    font-weight: 800;
+    font-size: 90;
+}
+
+
+.hero.container {
+    position: relative;
+}
+
+.hero.container img[src="img/second.svg"] {
+    position: absolute;
+    top: 270px; 
+    left: 350px;        
+    width: auto;  
+    height: auto;  
+    z-index: 0;    
+}
+
+.hero.container img[src="img/second2.svg"] {
+    position: absolute;
+    top: 1530px; 
+    left: 350px;        
+    width: auto;  
+    height: auto;  
+    z-index: 0;    
+}
+
+.hero.container img[src="img/second3.svg"] {
+    position: absolute;
+    top: 3370px; 
+    left: 350px;        
+    width: auto;  
+    height: auto;  
+    z-index: 0;    
+}
+
+.hero.container img[src="img/second4.svg"] {
+    position: absolute;
+    top: 4630px; 
+    left: 350px;        
+    width: auto;  
+    height: auto;  
+    z-index: 0;    
+}
+
+.hero.container img[src="img/second5.svg"] {
+    position: absolute;
+    top: 7470px; 
+    left: 350px;        
+    width: auto;  
+    height: auto;  
+    z-index: 0;    
+}
+
+.hero.container img[src="img/second6.svg"] {
+    position: absolute;
+    top: 8570px; 
+    left: 350px;        
+    width: auto;  
+    height: auto;  
+    z-index: 0;    
+}
+
+.hero.container img[src="img/second7.svg"] {
+    position: absolute;
+    top: 10280px; 
+    left: 350px;        
+    width: auto;  
+    height: auto;  
+    z-index: 0;    
+}
+
+.hero.container img[src="img/second8.svg"] {
+    position: absolute;
+    top: 11793px; 
+    left: 350px;        
+    width: auto;  
+    height: auto;  
+    z-index: 0;    
+}
+
+.hero.container img[src="img/second9.svg"] {
+    position: absolute;
+    top: 13680px; 
+    left: 350px;        
+    width: auto;  
+    height: auto;  
+    z-index: 0;    
+}
+
+.hero.container img[src="img/second10.svg"] {
+    position: absolute;
+    top: 15050px; 
+    left: 350px;        
+    width: auto;  
+    height: auto;  
+    z-index: 0;    
+}
+
+.hero.container img[src="img/hat.svg"] {
+    position: absolute;
+    top: 0;     
+    left: 1%;    
+    width: auto;  
+    height: auto;   
+    z-index: 1; 
+}
+
+
+.hero.container img[src="img/vhode.svg"] {
+    position: absolute;
+    top: 13.5px;      
+    left: 1310px;    
+    width: auto;  
+    height: auto;  
+    z-index: 1000;     
+}
+
+.hero.container img[src="img/help.svg"] {
+    position: absolute;
+    top: 13.5px;      
+    left: 380px;    
+    width: auto;  
+    height: auto;  
+    z-index: 1000;     
+}
+
+.hero.container img[src="img/iconsglavn.svg"] {
+    position: absolute;
+    top: 13px;      
+    left: 710px;    
+    width: auto;  
+    height: auto;  
+    z-index: 1000;     
+}
+
+.hero.container img[src="img/slovar.svg"] {
+    position: absolute;
+    top: 13.5px;      
+    left: 1035px;    
+    width: auto;  
+    height: auto;  
+    z-index: 1000;     
+}
+
+.part_1 p{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    width: 1500px;
+    line-height: 1.2;
+}
+
+em {
+  font-style: italic;
+  font-weight: 700;
+  color: #fff3f3;
+  transform: skew(-8deg);
+}
+
+.ramka {
+  background-color: #fff8f04a;
+  border-radius: 30px;
+  padding: 1px 12px 12px 10px;
+  color: #fff3f3;
+  display: inline-block;
+  margin-top: 25px;
+}
+  
+.part_1 h4{
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.part_1 ul li{
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.part_1 ol li{
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.part_1 h1{
+    margin-top: 800px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+b {
+    font-weight: 600;
+}
